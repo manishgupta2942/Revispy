@@ -9,7 +9,7 @@ export default defineConfig({
   server: {
       proxy: {
           '/api': {
-              target: 'http://localhost:5000', // Proxy to backend
+              target: 'https://revispy-1.onrender.com/', // Proxy to backend
               changeOrigin: true,
               secure: false,
           },
